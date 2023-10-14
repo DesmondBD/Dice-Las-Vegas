@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953AC9812ADB361E00E03B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AC9802ADB361E00E03B68 /* AppDelegate.swift */; };
+		953AC9832ADB361E00E03B68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AC9822ADB361E00E03B68 /* SceneDelegate.swift */; };
+		953AC9852ADB361E00E03B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AC9842ADB361E00E03B68 /* ViewController.swift */; };
+		953AC9882ADB361E00E03B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953AC9862ADB361E00E03B68 /* Main.storyboard */; };
+		953AC98A2ADB361F00E03B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953AC9892ADB361F00E03B68 /* Assets.xcassets */; };
+		953AC98D2ADB361F00E03B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953AC98B2ADB361F00E03B68 /* LaunchScreen.storyboard */; };
+		953AC9982ADB361F00E03B68 /* Dice_Las_VegasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AC9972ADB361F00E03B68 /* Dice_Las_VegasTests.swift */; };
+		953AC9A22ADB361F00E03B68 /* Dice_Las_VegasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AC9A12ADB361F00E03B68 /* Dice_Las_VegasUITests.swift */; };
+		953AC9A42ADB361F00E03B68 /* Dice_Las_VegasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953AC9A32ADB361F00E03B68 /* Dice_Las_VegasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953AC9942ADB361F00E03B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953AC9752ADB361E00E03B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953AC97C2ADB361E00E03B68;
+			remoteInfo = "Dice Las Vegas";
+		};
+		953AC99E2ADB361F00E03B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953AC9752ADB361E00E03B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953AC97C2ADB361E00E03B68;
+			remoteInfo = "Dice Las Vegas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		953AC97D2ADB361E00E03B68 /* Dice Las Vegas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Las Vegas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953AC9802ADB361E00E03B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		953AC9822ADB361E00E03B68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		953AC9842ADB361E00E03B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		953AC9872ADB361E00E03B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		953AC9892ADB361F00E03B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953AC98C2ADB361F00E03B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953AC98E2ADB361F00E03B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953AC9932ADB361F00E03B68 /* Dice Las VegasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice Las VegasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953AC9972ADB361F00E03B68 /* Dice_Las_VegasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_Las_VegasTests.swift; sourceTree = "<group>"; };
+		953AC99D2ADB361F00E03B68 /* Dice Las VegasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice Las VegasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		953AC9A12ADB361F00E03B68 /* Dice_Las_VegasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_Las_VegasUITests.swift; sourceTree = "<group>"; };
+		953AC9A32ADB361F00E03B68 /* Dice_Las_VegasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_Las_VegasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953AC97A2ADB361E00E03B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953AC9902ADB361F00E03B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953AC99A2ADB361F00E03B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953AC9742ADB361E00E03B68 = {
+			isa = PBXGroup;
+			children = (
+				953AC97F2ADB361E00E03B68 /* Dice Las Vegas */,
+				953AC9962ADB361F00E03B68 /* Dice Las VegasTests */,
+				953AC9A02ADB361F00E03B68 /* Dice Las VegasUITests */,
+				953AC97E2ADB361E00E03B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		953AC97E2ADB361E00E03B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953AC97D2ADB361E00E03B68 /* Dice Las Vegas.app */,
+				953AC9932ADB361F00E03B68 /* Dice Las VegasTests.xctest */,
+				953AC99D2ADB361F00E03B68 /* Dice Las VegasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953AC97F2ADB361E00E03B68 /* Dice Las Vegas */ = {
+			isa = PBXGroup;
+			children = (
+				953AC9802ADB361E00E03B68 /* AppDelegate.swift */,
+				953AC9822ADB361E00E03B68 /* SceneDelegate.swift */,
+				953AC9842ADB361E00E03B68 /* ViewController.swift */,
+				953AC9862ADB361E00E03B68 /* Main.storyboard */,
+				953AC9892ADB361F00E03B68 /* Assets.xcassets */,
+				953AC98B2ADB361F00E03B68 /* LaunchScreen.storyboard */,
+				953AC98E2ADB361F00E03B68 /* Info.plist */,
+			);
+			path = "Dice Las Vegas";
+			sourceTree = "<group>";
+		};
+		953AC9962ADB361F00E03B68 /* Dice Las VegasTests */ = {
+			isa = PBXGroup;
+			children = (
+				953AC9972ADB361F00E03B68 /* Dice_Las_VegasTests.swift */,
+			);
+			path = "Dice Las VegasTests";
+			sourceTree = "<group>";
+		};
+		953AC9A02ADB361F00E03B68 /* Dice Las VegasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				953AC9A12ADB361F00E03B68 /* Dice_Las_VegasUITests.swift */,
+				953AC9A32ADB361F00E03B68 /* Dice_Las_VegasUITestsLaunchTests.swift */,
+			);
+			path = "Dice Las VegasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953AC97C2ADB361E00E03B68 /* Dice Las Vegas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953AC9A72ADB361F00E03B68 /* Build configuration list for PBXNativeTarget "Dice Las Vegas" */;
+			buildPhases = (
+				953AC9792ADB361E00E03B68 /* Sources */,
+				953AC97A2ADB361E00E03B68 /* Frameworks */,
+				953AC97B2ADB361E00E03B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dice Las Vegas";
+			productName = "Dice Las Vegas";
+			productReference = 953AC97D2ADB361E00E03B68 /* Dice Las Vegas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953AC9922ADB361F00E03B68 /* Dice Las VegasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953AC9AA2ADB361F00E03B68 /* Build configuration list for PBXNativeTarget "Dice Las VegasTests" */;
+			buildPhases = (
+				953AC98F2ADB361F00E03B68 /* Sources */,
+				953AC9902ADB361F00E03B68 /* Frameworks */,
+				953AC9912ADB361F00E03B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953AC9952ADB361F00E03B68 /* PBXTargetDependency */,
+			);
+			name = "Dice Las VegasTests";
+			productName = "Dice Las VegasTests";
+			productReference = 953AC9932ADB361F00E03B68 /* Dice Las VegasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		953AC99C2ADB361F00E03B68 /* Dice Las VegasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953AC9AD2ADB361F00E03B68 /* Build configuration list for PBXNativeTarget "Dice Las VegasUITests" */;
+			buildPhases = (
+				953AC9992ADB361F00E03B68 /* Sources */,
+				953AC99A2ADB361F00E03B68 /* Frameworks */,
+				953AC99B2ADB361F00E03B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953AC99F2ADB361F00E03B68 /* PBXTargetDependency */,
+			);
+			name = "Dice Las VegasUITests";
+			productName = "Dice Las VegasUITests";
+			productReference = 953AC99D2ADB361F00E03B68 /* Dice Las VegasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953AC9752ADB361E00E03B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					953AC97C2ADB361E00E03B68 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					953AC9922ADB361F00E03B68 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 953AC97C2ADB361E00E03B68;
+					};
+					953AC99C2ADB361F00E03B68 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 953AC97C2ADB361E00E03B68;
+					};
+				};
+			};
+			buildConfigurationList = 953AC9782ADB361E00E03B68 /* Build configuration list for PBXProject "Dice Las Vegas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953AC9742ADB361E00E03B68;
+			productRefGroup = 953AC97E2ADB361E00E03B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953AC97C2ADB361E00E03B68 /* Dice Las Vegas */,
+				953AC9922ADB361F00E03B68 /* Dice Las VegasTests */,
+				953AC99C2ADB361F00E03B68 /* Dice Las VegasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953AC97B2ADB361E00E03B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953AC98D2ADB361F00E03B68 /* LaunchScreen.storyboard in Resources */,
+				953AC98A2ADB361F00E03B68 /* Assets.xcassets in Resources */,
+				953AC9882ADB361E00E03B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953AC9912ADB361F00E03B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953AC99B2ADB361F00E03B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953AC9792ADB361E00E03B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953AC9852ADB361E00E03B68 /* ViewController.swift in Sources */,
+				953AC9812ADB361E00E03B68 /* AppDelegate.swift in Sources */,
+				953AC9832ADB361E00E03B68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953AC98F2ADB361F00E03B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953AC9982ADB361F00E03B68 /* Dice_Las_VegasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953AC9992ADB361F00E03B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953AC9A22ADB361F00E03B68 /* Dice_Las_VegasUITests.swift in Sources */,
+				953AC9A42ADB361F00E03B68 /* Dice_Las_VegasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953AC9952ADB361F00E03B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953AC97C2ADB361E00E03B68 /* Dice Las Vegas */;
+			targetProxy = 953AC9942ADB361F00E03B68 /* PBXContainerItemProxy */;
+		};
+		953AC99F2ADB361F00E03B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953AC97C2ADB361E00E03B68 /* Dice Las Vegas */;
+			targetProxy = 953AC99E2ADB361F00E03B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		953AC9862ADB361E00E03B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953AC9872ADB361E00E03B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953AC98B2ADB361F00E03B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953AC98C2ADB361F00E03B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953AC9A52ADB361F00E03B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953AC9A62ADB361F00E03B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953AC9A82ADB361F00E03B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y74T6MDF6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice Las Vegas/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desgame.com.Dice-Las-Vegas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953AC9A92ADB361F00E03B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y74T6MDF6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dice Las Vegas/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desgame.com.Dice-Las-Vegas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		953AC9AB2ADB361F00E03B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y74T6MDF6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desgame.com.Dice-Las-VegasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Las Vegas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dice Las Vegas";
+			};
+			name = Debug;
+		};
+		953AC9AC2ADB361F00E03B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y74T6MDF6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desgame.com.Dice-Las-VegasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dice Las Vegas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dice Las Vegas";
+			};
+			name = Release;
+		};
+		953AC9AE2ADB361F00E03B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y74T6MDF6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desgame.com.Dice-Las-VegasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice Las Vegas";
+			};
+			name = Debug;
+		};
+		953AC9AF2ADB361F00E03B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y74T6MDF6W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "desgame.com.Dice-Las-VegasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dice Las Vegas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953AC9782ADB361E00E03B68 /* Build configuration list for PBXProject "Dice Las Vegas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953AC9A52ADB361F00E03B68 /* Debug */,
+				953AC9A62ADB361F00E03B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953AC9A72ADB361F00E03B68 /* Build configuration list for PBXNativeTarget "Dice Las Vegas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953AC9A82ADB361F00E03B68 /* Debug */,
+				953AC9A92ADB361F00E03B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953AC9AA2ADB361F00E03B68 /* Build configuration list for PBXNativeTarget "Dice Las VegasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953AC9AB2ADB361F00E03B68 /* Debug */,
+				953AC9AC2ADB361F00E03B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953AC9AD2ADB361F00E03B68 /* Build configuration list for PBXNativeTarget "Dice Las VegasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953AC9AE2ADB361F00E03B68 /* Debug */,
+				953AC9AF2ADB361F00E03B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953AC9752ADB361E00E03B68 /* Project object */;
+}
